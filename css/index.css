@@ -1,0 +1,98 @@
+/* Custom styling for the card */
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom styling for the card image */
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Custom styling for the card title */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/* Custom styling for the card text */
+.card-text {
+    font-size: 1rem;
+}
+
+/* Custom styling for the "Go to Page" button */
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.custom-navbar {
+    background-color: red;
+    /* Change the background color to red */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: white !important;
+    /* Change the text color to white */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-signature {
+    text-align: right;
+}
+
+.container-signature b {
+    display: inline-block;
+    width: 49%;
+}
+
+.signature {
+    text-align: right;
+}
+
+.signature p {
+    margin: 0;
+}
+
+.color-legend {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .color-legend i {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .container b {
+        width: 100%;
+    }
+
+    .signature {
+        text-align: left;
+    }
+
+    .color-legend i {
+        display: block;
+        margin: 10px 0;
+    }
+}
